@@ -48,7 +48,7 @@ curl_close($curl);
  echo "Productos:<br>";
 //echo $productos;
 $productos = json_decode($productos);
- 
+//echo "<pre>"; print_r($productos);
 echo "Precios:</br>";
 $precios = json_decode($precios);
 //echo "<pre>";print_r($precios);
